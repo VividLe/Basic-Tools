@@ -1,0 +1,30 @@
+Log file created at: 2017/11/27 17:10:37
+Running on machine: GPU3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1127 17:10:37.910364 10542 db_lmdb.cpp:35] Opened lmdb /home/yangle/TCyb/dataset/patch_MSRA/lmdb/train_img_lmdb
+I1127 17:10:37.926933 10542 compute_image_mean.cpp:70] Starting iteration
+I1127 17:10:38.093413 10542 compute_image_mean.cpp:95] Processed 10000 files.
+I1127 17:10:38.257756 10542 compute_image_mean.cpp:95] Processed 20000 files.
+I1127 17:10:38.418850 10542 compute_image_mean.cpp:95] Processed 30000 files.
+I1127 17:10:38.566433 10542 compute_image_mean.cpp:95] Processed 40000 files.
+I1127 17:10:38.747236 10542 compute_image_mean.cpp:95] Processed 50000 files.
+I1127 17:10:38.925969 10542 compute_image_mean.cpp:95] Processed 60000 files.
+I1127 17:10:39.072527 10542 compute_image_mean.cpp:95] Processed 70000 files.
+I1127 17:10:39.215706 10542 compute_image_mean.cpp:95] Processed 80000 files.
+I1127 17:10:39.373531 10542 compute_image_mean.cpp:95] Processed 90000 files.
+I1127 17:10:39.525064 10542 compute_image_mean.cpp:95] Processed 100000 files.
+I1127 17:10:39.672461 10542 compute_image_mean.cpp:95] Processed 110000 files.
+I1127 17:10:39.818441 10542 compute_image_mean.cpp:95] Processed 120000 files.
+I1127 17:10:39.987032 10542 compute_image_mean.cpp:95] Processed 130000 files.
+I1127 17:10:40.126344 10542 compute_image_mean.cpp:95] Processed 140000 files.
+I1127 17:10:40.331389 10542 compute_image_mean.cpp:95] Processed 150000 files.
+I1127 17:10:40.500519 10542 compute_image_mean.cpp:95] Processed 160000 files.
+I1127 17:10:40.651515 10542 compute_image_mean.cpp:95] Processed 170000 files.
+I1127 17:10:40.794615 10542 compute_image_mean.cpp:95] Processed 180000 files.
+I1127 17:10:40.936054 10542 compute_image_mean.cpp:95] Processed 190000 files.
+I1127 17:10:41.074038 10542 compute_image_mean.cpp:95] Processed 200000 files.
+I1127 17:10:41.074108 10542 compute_image_mean.cpp:108] Write to /home/yangle/TCyb/dataset/patch_MSRA/lmdb/imageMean.binaryproto
+I1127 17:10:41.074414 10542 compute_image_mean.cpp:114] Number of channels: 3
+I1127 17:10:41.074429 10542 compute_image_mean.cpp:119] mean_value channel [0]: 95.0502
+I1127 17:10:41.074481 10542 compute_image_mean.cpp:119] mean_value channel [1]: 107.56
+I1127 17:10:41.074493 10542 compute_image_mean.cpp:119] mean_value channel [2]: 119.082

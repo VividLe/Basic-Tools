@@ -1,0 +1,11 @@
+Log file created at: 2017/11/27 16:09:49
+Running on machine: GPU3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1127 16:09:49.866163  9764 db_lmdb.cpp:35] Opened lmdb /home/yangle/BasicDataset/dataset/DAVIS/lmdb/train_img_lmdb
+I1127 16:09:49.876258  9764 compute_image_mean.cpp:70] Starting iteration
+I1127 16:09:55.714917  9764 compute_image_mean.cpp:101] Processed 3455 files.
+I1127 16:09:55.718628  9764 compute_image_mean.cpp:108] Write to /home/yangle/BasicDataset/dataset/DAVIS/lmdb/imageMean.binaryproto
+I1127 16:09:55.729938  9764 compute_image_mean.cpp:114] Number of channels: 3
+I1127 16:09:55.730520  9764 compute_image_mean.cpp:119] mean_value channel [0]: 114.627
+I1127 16:09:55.731151  9764 compute_image_mean.cpp:119] mean_value channel [1]: 121.732
+I1127 16:09:55.731701  9764 compute_image_mean.cpp:119] mean_value channel [2]: 122.15
