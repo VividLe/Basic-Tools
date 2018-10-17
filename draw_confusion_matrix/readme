@@ -1,0 +1,7 @@
+Given confusion matrix data, drwa the figure
+
+Notice: run in an old version MATLAB
+
+Reference:
+https://github.com/lipiji/PG_Curve
+This project contains code for ROC, PR, etc.
