@@ -33,3 +33,12 @@ if __name__ == '__main__':
     pool.join()
     e2 = time.time() - t2
     print('parallel time: ', e2)
+
+if __name__ == '__main__':
+    num_processor = 32
+    name_set = os.listdir(ref_rp)
+
+    pool = Pool(num_processor)
+    run = pool.map(mask_color, name_set)
+    pool.close()
+    pool.join()
