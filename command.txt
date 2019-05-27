@@ -1,0 +1,27 @@
+IP:
+GPU04:
+10.150.156.20 
+
+
+Philly:
+# submit project
+phillyregistry.azurecr.io
+philly/jobs/custom/pytorch
+pytorch1.0.0-py36-cuda9-mpi-nccl-hvd-apex-video
+pytorch0.4.0-py36-cuda9
+pytorch0.4.1-py36-cuda9-mpi-nccl
+
+# download files
+https://storage.sc3.philly.selfhost.corp.microsoft.com/resrchprojvc3/v-yale/
+
+
+Statistic Number:
+the number of folders under current directory:
+ls -lR|grep "_"|wc -l
+
+the number of files under current directory:
+ls -l|grep "d"|wc -l
+
+ls -lR|grep "^-"| wc -l
+
+CUDA_VISIBLE_DEVICES
